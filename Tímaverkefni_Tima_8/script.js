@@ -29,13 +29,13 @@ function checkCharacter() {
   // annars skila "Beginner"
   let message = "";
   if (age < 18) {
-    message = "Of ung/ur til að spila";
+    message = "Of ung/ur, hvar eru foreldrar þínir!";
   } else if (score > 80 && age >= 18) {
-    message = "Pro player";
+    message = "Fagmenni";
   } else if (score > 50 && age <= 80) {
-    message = "normal";
+    message = "Meðalmenni";
   } else {
-    message = "Beginner (nooob)";
+    message = "Byrjenda búbbi! (nooob)";
   }
 
   // 5. Sýna niðurstöðu í output
